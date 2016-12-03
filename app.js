@@ -11,7 +11,7 @@ var tasks = require('./routes/tasks');
 var authenticate = require('./routes/authenticate')(passport);
 
 var mongoose = require('mongoose');
-mongoose.connect("mongodb://45.55.235.45:27017/users");
+mongoose.connect("mongodb://127.0.0.1:27017/users");
 
 var app = express();
 
